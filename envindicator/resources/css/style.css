@@ -73,3 +73,7 @@
 #login-form .envindicator {
     border-radius: 4px;
 }
+
+#login-form #spinner {
+    margin-top: 80px;
+}
