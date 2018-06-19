@@ -52,8 +52,8 @@ class EnvironmentIndicatorModule extends Module
 
     public function __construct($id, $parent = null, array $config = [])
     {
-        Craft::setAlias('@modules/environmentindicatormodule', $this->getBasePath());
-        $this->controllerNamespace = 'Y7K\EnvironmentIndicatorModule\controllers';
+        Craft::setAlias('@Y7K/EnvironmentIndicatorModule', $this->getBasePath());
+        $this->controllerNamespace = '\Y7K\EnvironmentIndicatorModule\controllers';
 
         // Translation category
         $i18n = Craft::$app->getI18n();
@@ -62,7 +62,7 @@ class EnvironmentIndicatorModule extends Module
             $i18n->translations[$id] = [
                 'class' => PhpMessageSource::class,
                 'sourceLanguage' => 'de',
-                'basePath' => '@modules/environmentindicatormodule/translations',
+                'basePath' => '@Y7K/EnvironmentIndicatorModule/translations',
                 'forceTranslation' => true,
                 'allowOverrides' => true,
             ];

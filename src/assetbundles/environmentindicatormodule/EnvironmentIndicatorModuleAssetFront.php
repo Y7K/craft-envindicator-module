@@ -43,7 +43,7 @@ class EnvironmentIndicatorModuleAssetFront extends AssetBundle
     public function init()
     {
         // define the path that your publishable resources live
-        $this->sourcePath = '@modules/environmentindicatormodule/assetbundles/environmentindicatormodule/dist';
+        $this->sourcePath = '@Y7K/EnvironmentIndicatorModule/assetbundles/environmentindicatormodule/dist';
 
         // define the dependencies
         $this->depends = [
