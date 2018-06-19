@@ -1,3 +1,15 @@
+/**
+ * Environment Indicator module for Craft CMS
+ *
+ * Environment Indicator CSS
+ *
+ * @author    Y7K
+ * @copyright Copyright (c) 2018 Y7K
+ * @link      y7k.com
+ * @package   EnvironmentIndicatorModule
+ * @since     1.0.0
+ */
+
 .envindicator {
     display: block;
     background-color: #D8D8D8;
