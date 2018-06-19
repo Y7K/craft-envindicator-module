@@ -1,15 +1,15 @@
 {
-    "name": "y7k/environmentindicatormodule",
+    "name": "y7k\/environmentindicatormodule",
     "description": "Craft 3 Module to display a label of the current environment",
     "license": "Unlicense",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "require": {
         "php": ">=7.1.0",
-        "craftcms/cms": "^3.0.0-RC1"
+        "craftcms\/cms": "^3.0.0-RC1"
     },
     "autoload": {
         "psr-4": {
-            "Y7K\\EnvironmentIndicatorModule\\": "src/"
+            "Y7K\\EnvironmentIndicatorModule\\": "src\/"
         }
     }
 }
