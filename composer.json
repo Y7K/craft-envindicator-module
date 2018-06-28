@@ -2,7 +2,7 @@
     "name": "y7k\/environmentindicatormodule",
     "description": "Craft 3 Module to display a label of the current environment",
     "license": "Unlicense",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "require": {
         "php": ">=7.1.0",
         "craftcms\/cms": "^3.0.0-RC1"
