@@ -52,8 +52,8 @@ class EnvironmentIndicatorModule extends Module
 
     public function __construct($id, $parent = null, array $config = [])
     {
-        Craft::setAlias('@Y7K/EnvironmentIndicatorModule', $this->getBasePath());
-        $this->controllerNamespace = '\Y7K\EnvironmentIndicatorModule\controllers';
+        Craft::setAlias('Y7K/EnvironmentIndicatorModule', $this->getBasePath());
+        $this->controllerNamespace = 'Y7K\EnvironmentIndicatorModule\controllers';
 
         // Translation category
         $i18n = Craft::$app->getI18n();
@@ -62,7 +62,7 @@ class EnvironmentIndicatorModule extends Module
             $i18n->translations[$id] = [
                 'class' => PhpMessageSource::class,
                 'sourceLanguage' => 'de',
-                'basePath' => '@Y7K/EnvironmentIndicatorModule/translations',
+                'basePath' => 'Y7K/EnvironmentIndicatorModule/translations',
                 'forceTranslation' => true,
                 'allowOverrides' => true,
             ];
@@ -157,7 +157,7 @@ class EnvironmentIndicatorModule extends Module
             UrlManager::class,
             UrlManager::EVENT_REGISTER_SITE_URL_RULES,
             function (RegisterUrlRulesEvent $event) {
-                $event->rules['siteActionTrigger1'] = 'modules/environment-indicator-module/frontend-controller';
+                $event->rules['siteActionTrigger1'] = 'y7k/environment-indicator-module/frontend-controller';
             }
         );
 
