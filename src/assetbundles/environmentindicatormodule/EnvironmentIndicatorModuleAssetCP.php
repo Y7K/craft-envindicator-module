@@ -8,7 +8,7 @@
  * @copyright Copyright (c) 2018 Y7K
  */
 
-namespace y7k\environmentindicatormodule\assetbundles\EnvironmentIndicatorModule;
+namespace y7k\environmentindicatormodule\assetbundles\environmentindicatormodule;
 
 use Craft;
 use craft\web\AssetBundle;
