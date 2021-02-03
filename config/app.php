@@ -16,7 +16,7 @@
 return [
     'modules' => [
         'environment-indicator-module' => [
-            'class' => \Y7K\EnvironmentIndicatorModule\EnvironmentIndicatorModule::class,
+            'class' => \y7k\environmentindicatormodule\EnvironmentIndicatorModule::class,
         ],
     ],
     'bootstrap' => ['environment-indicator-module'],

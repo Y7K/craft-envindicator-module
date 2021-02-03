@@ -8,7 +8,7 @@
  * @copyright Copyright (c) 2018 Y7K
  */
 
-namespace Y7K\EnvironmentIndicatorModule\assetbundles\EnvironmentIndicatorModule;
+namespace y7k\environmentindicatormodule\assetbundles\EnvironmentIndicatorModule;
 
 use Craft;
 use craft\web\AssetBundle;
@@ -43,7 +43,7 @@ class EnvironmentIndicatorModuleAssetCP extends AssetBundle
     public function init()
     {
         // define the path that your publishable resources live
-        $this->sourcePath = '@Y7K/EnvironmentIndicatorModule/assetbundles/environmentindicatormodule/dist';
+        $this->sourcePath = '@y7k/environmentindicatormodule/assetbundles/environmentindicatormodule/dist';
 
         // define the dependencies
         $this->depends = [

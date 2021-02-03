@@ -8,9 +8,9 @@
  * @copyright Copyright (c) 2018 Y7K
  */
 
-namespace Y7K\EnvironmentIndicatorModule\controllers;
+namespace y7k\environmentindicatormodule\controllers;
 
-use Y7K\EnvironmentIndicatorModule\EnvironmentIndicatorModule;
+use y7k\environmentindicatormodule\EnvironmentIndicatorModule;
 
 use Craft;
 use craft\web\Controller;

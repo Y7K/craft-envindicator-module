@@ -8,10 +8,10 @@
  * @copyright Copyright (c) 2018 Y7K
  */
 
-namespace Y7K\EnvironmentIndicatorModule;
+namespace y7k\environmentindicatormodule;
 
-use Y7K\EnvironmentIndicatorModule\assetbundles\environmentindicatormodule\EnvironmentIndicatorModuleAssetCP;
-use Y7K\EnvironmentIndicatorModule\assetbundles\environmentindicatormodule\EnvironmentIndicatorModuleAssetFront;
+use y7k\environmentindicatormodule\assetbundles\environmentindicatormodule\EnvironmentIndicatorModuleAssetCP;
+use y7k\environmentindicatormodule\assetbundles\environmentindicatormodule\EnvironmentIndicatorModuleAssetFront;
 
 use Craft;
 use craft\events\RegisterTemplateRootsEvent;
@@ -53,7 +53,7 @@ class EnvironmentIndicatorModule extends Module
     public function __construct($id, $parent = null, array $config = [])
     {
         Craft::setAlias('Y7K/EnvironmentIndicatorModule', $this->getBasePath());
-        $this->controllerNamespace = 'Y7K\EnvironmentIndicatorModule\controllers';
+        $this->controllerNamespace = 'y7k\environmentindicatormodule\controllers';
 
         // Translation category
         $i18n = Craft::$app->getI18n();
